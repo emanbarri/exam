@@ -30,6 +30,7 @@ footer {
 /*------------------------------Mobile firstlayout-------------------------------*/
 
 
+.container1 { /*for index.html*/
   display: grid;
   grid-template-columns:1fr; /*only 1 column needed on mobile*/
   grid-template-areas:
