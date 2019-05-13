@@ -54,6 +54,7 @@ footer {
 }
 
 /*----------------------------------Desktop layout------
+
 @media only screen and (min-width: 64em)  {
 .container1 { /*for index.html*/
     grid-template-columns: 25% auto 25%; /*three columns: left is 25%, middle is auto, right is 25%*/
