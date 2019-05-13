@@ -2,27 +2,27 @@
     padding:20px; 
 }
 	
-.header {
+header {
     background-color:red;
     grid-area:header;
     }
 
-.nav {
+nav {
     background-color:blue;
     grid-area:nav;
     }
 
-.main {
+main {
     background-color:yellow;
     grid-area:main;
     }
 
-.aside {
+aside {
     background-color:green;
     grid-area:aside;
     }
 
-.footer {
+footer {
     background-color:purple;
     grid-area:footer;
     }
