@@ -38,11 +38,11 @@ footer {
     "aside"
     "footer";
     }
-
+}
 /*----------------------------------Tablet layout-----------------------------------*/
 
 
-container1 { /*for index.html*/
+.container1 { /*for index.html*/
     grid-template-columns: 35% auto; /*two columns: left is 35%, right is auto*/
   	grid-template-areas:
     "header header"
