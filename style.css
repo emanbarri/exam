@@ -54,7 +54,7 @@ footer {
     }
 }
 
-/*----------------------------------Desktop layout------
+/*----------------------------------Desktop layout----------------------------*/
 
 @media only screen and (min-width: 64em)  {
 .container1 { /*for index.html*/
