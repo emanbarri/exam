@@ -28,7 +28,8 @@ footer {
     }
 
 /*------------------------------Mobile firstlayout-------------------------------*/
-.container1 { /*for index.html*/
+
+
   display: grid;
   grid-template-columns:1fr; /*only 1 column needed on mobile*/
   grid-template-areas:
@@ -41,7 +42,7 @@ footer {
 
 /*----------------------------------Tablet layout-----------------------------------*/
 
-
+@media only screen and (min-width: 32em)  {
 .container1 { /*for index.html*/
     grid-template-columns: 35% auto; /*two columns: left is 35%, right is auto*/
   	grid-template-areas:
@@ -53,6 +54,7 @@ footer {
 }
 
 /*----------------------------------Desktop layout------
+@media only screen and (min-width: 64em)  {
 .container1 { /*for index.html*/
     grid-template-columns: 25% auto 25%; /*three columns: left is 25%, middle is auto, right is 25%*/
   	grid-template-areas:
